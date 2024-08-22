@@ -1,0 +1,287 @@
+.custom-navbar {
+    width: 100%; 
+    top: 0;
+    left: 0;
+    height: 80px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    background-color: pink;
+    position: fixed;
+}
+
+.custom-navbar .logo {
+    float: left;
+}
+
+.custom-navbar .logo img {
+    height: 60px;
+    transition: .5s;
+}
+
+.custom-navbar>ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+
+.custom-navbar>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.custom-navbar>ul>li>a:hover {
+    background: darkgrey;
+    color: #fff;
+}
+
+.custom-navbar>ul>li>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 5px 20px;
+    transition: .5s;
+}
+
+/* navbar homepage */
+body {
+    margin-top: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 1000;
+}
+
+nav.black {
+    background: rgba(255, 192, 203, 1);
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo img {
+    height: 80px;
+    transition: .5s;
+}
+
+nav.black .logo img {
+    height: 60px;
+}
+
+nav>ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+
+nav>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav>ul>li>a:hover {
+    background: darkgrey;
+    color: #fff;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding: 5px 20px;
+    transition: .5s;
+}
+
+nav.black>ul>li>a {
+    color: black;
+    line-height: 60px;
+}
+
+/* Login Page */
+.conlog {
+    background-image: url('../assets/Hero/2.jpg');
+}
+
+.conlog2{
+    background-color: pink;
+}
+
+.container-login{
+    margin-top: 85px;
+}
+
+/* Register Page */
+.container-register {
+    margin-top: 40px;
+}
+
+/* Home Page */
+.hero-img {
+    background-image: url('/assets/Hero/1.png');
+    height: 600px;
+}
+
+/* card */
+.content {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.content img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.product{
+    background-color: pink;
+}
+
+/* Sosial Media */
+.social-media {
+	padding-bottom: 0;
+    background-color: white;
+}
+
+.instagram__pic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.instagram__pic__item {
+    flex: 1 0 calc(33.333% - 10px); /* Adjusting for margin */
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.instagram__pic__item:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.instagram__pic__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+.sosmed__text {
+	padding-top: 50px;
+}
+
+.sosmed__text  h2 {
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.sosmed__text  p {
+	margin-bottom: 20px;
+}
+
+.sosmed__text  h3 {
+	color: pink;
+	font-weight: 700;
+}
+
+.sosmed__text ul li a {
+    color: grey;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+    margin-bottom: 80px;
+  }
+  
+  .sosmed__text ul li a:hover {
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+      color: pink;
+  }
+
+.myorder{
+    margin-top: 100px;
+    padding-top: 5px;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.order-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
