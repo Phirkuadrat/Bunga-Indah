@@ -126,7 +126,7 @@ $hargaSatuan = $row['harga'];
                         <p id="totalHargaModal" class="mb-0"><?php echo formatHarga($hargaSatuan); ?></p>
                         <div>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                            <button type="button" class="btn btn-primary">Tambah Order</button>
+                            <button type="button" class="btn btn-primary" onclick="showConfirmationModal()">Tambah Order</button>
                         </div>
                     </div>
                 </form>
